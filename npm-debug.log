@@ -1,0 +1,185 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '—save',
+1 verbose cli   'react-addons-pure-render-mixin' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ '—save', null ]
+6 verbose cache add name=undefined spec="—save" args=["—save",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '—save',
+7 verbose parsed url   path: '—save',
+7 verbose parsed url   href: '—save' }
+8 verbose cache add [ 'react-addons-pure-render-mixin', null ]
+9 verbose cache add name=undefined spec="react-addons-pure-render-mixin" args=["react-addons-pure-render-mixin",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'react-addons-pure-render-mixin',
+10 verbose parsed url   path: 'react-addons-pure-render-mixin',
+10 verbose parsed url   href: 'react-addons-pure-render-mixin' }
+11 silly lockFile 40f87acd-save —save
+12 verbose lock —save /Users/jemacar/.npm/40f87acd-save.lock
+13 silly lockFile b6836936-react-addons-pure-render-mixin react-addons-pure-render-mixin
+14 verbose lock react-addons-pure-render-mixin /Users/jemacar/.npm/b6836936-react-addons-pure-render-mixin.lock
+15 silly lockFile b6836936-react-addons-pure-render-mixin react-addons-pure-render-mixin
+16 silly lockFile b6836936-react-addons-pure-render-mixin react-addons-pure-render-mixin
+17 silly lockFile 40f87acd-save —save
+18 silly lockFile 40f87acd-save —save
+19 verbose addNamed [ 'react-addons-pure-render-mixin', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile 8a0a757f-react-addons-pure-render-mixin react-addons-pure-render-mixin@
+22 verbose lock react-addons-pure-render-mixin@ /Users/jemacar/.npm/8a0a757f-react-addons-pure-render-mixin.lock
+23 verbose addNamed [ '—save', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile 3b923a69-save —save@
+26 verbose lock —save@ /Users/jemacar/.npm/3b923a69-save.lock
+27 silly addNameRange { name: '—save', range: '*', hasData: false }
+28 silly addNameRange { name: 'react-addons-pure-render-mixin',
+28 silly addNameRange   range: '*',
+28 silly addNameRange   hasData: false }
+29 verbose request where is /—save
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id 5d05e281de177123
+32 verbose url raw /—save
+33 verbose url resolving [ 'https://registry.npmjs.org/', './%E2%80%94save' ]
+34 verbose url resolved https://registry.npmjs.org/%E2%80%94save
+35 verbose request where is https://registry.npmjs.org/%E2%80%94save
+36 info trying registry request attempt 1 at 20:07:22
+37 http GET https://registry.npmjs.org/%E2%80%94save
+38 verbose request where is /react-addons-pure-render-mixin
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /react-addons-pure-render-mixin
+41 verbose url resolving [ 'https://registry.npmjs.org/',
+41 verbose url resolving   './react-addons-pure-render-mixin' ]
+42 verbose url resolved https://registry.npmjs.org/react-addons-pure-render-mixin
+43 verbose request where is https://registry.npmjs.org/react-addons-pure-render-mixin
+44 info trying registry request attempt 1 at 20:07:22
+45 verbose etag "7GGT7G26V9NEP3CVRC093L8EJ"
+46 http GET https://registry.npmjs.org/react-addons-pure-render-mixin
+47 http 404 https://registry.npmjs.org/%E2%80%94save
+48 silly registry.get cb [ 404,
+48 silly registry.get   { 'content-type': 'application/json',
+48 silly registry.get     'cache-control': 'max-age=0',
+48 silly registry.get     'content-length': '69',
+48 silly registry.get     'accept-ranges': 'bytes',
+48 silly registry.get     date: 'Wed, 07 Sep 2016 10:07:25 GMT',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     age: '0',
+48 silly registry.get     connection: 'keep-alive',
+48 silly registry.get     'x-served-by': 'cache-mel6523-MEL',
+48 silly registry.get     'x-cache': 'MISS',
+48 silly registry.get     'x-cache-hits': '0',
+48 silly registry.get     'x-timer': 'S1473242845.770087,VS0,VE219' } ]
+49 silly lockFile 3b923a69-save —save@
+50 silly lockFile 3b923a69-save —save@
+51 http 200 https://registry.npmjs.org/react-addons-pure-render-mixin
+52 silly registry.get cb [ 200,
+52 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+52 silly registry.get     etag: '"7WKLH069CGBVVTOY6U9QW9EPX"',
+52 silly registry.get     'content-type': 'application/json',
+52 silly registry.get     'content-encoding': 'gzip',
+52 silly registry.get     'cache-control': 'max-age=300',
+52 silly registry.get     'content-length': '5679',
+52 silly registry.get     'accept-ranges': 'bytes',
+52 silly registry.get     date: 'Wed, 07 Sep 2016 10:07:26 GMT',
+52 silly registry.get     via: '1.1 varnish',
+52 silly registry.get     age: '0',
+52 silly registry.get     connection: 'keep-alive',
+52 silly registry.get     'x-served-by': 'cache-mel6522-MEL',
+52 silly registry.get     'x-cache': 'MISS',
+52 silly registry.get     'x-cache-hits': '0',
+52 silly registry.get     'x-timer': 'S1473242845.771322,VS0,VE926',
+52 silly registry.get     vary: 'Accept-Encoding' } ]
+53 silly addNameRange number 2 { name: 'react-addons-pure-render-mixin',
+53 silly addNameRange   range: '*',
+53 silly addNameRange   hasData: true }
+54 silly addNameRange versions [ 'react-addons-pure-render-mixin',
+54 silly addNameRange   [ '0.14.0-beta1',
+54 silly addNameRange     '0.14.0-beta2',
+54 silly addNameRange     '0.14.0-beta3',
+54 silly addNameRange     '0.14.0-rc1',
+54 silly addNameRange     '0.14.0',
+54 silly addNameRange     '0.14.1',
+54 silly addNameRange     '0.14.2',
+54 silly addNameRange     '0.14.3',
+54 silly addNameRange     '0.14.4',
+54 silly addNameRange     '0.14.5',
+54 silly addNameRange     '0.14.6',
+54 silly addNameRange     '0.15.0-alpha.1',
+54 silly addNameRange     '0.14.7',
+54 silly addNameRange     '15.0.0-rc.1',
+54 silly addNameRange     '15.0.0-rc.2',
+54 silly addNameRange     '0.14.8',
+54 silly addNameRange     '15.0.0',
+54 silly addNameRange     '15.0.1',
+54 silly addNameRange     '15.0.2-alpha.1',
+54 silly addNameRange     '15.0.2-alpha.2',
+54 silly addNameRange     '15.0.2-alpha.3',
+54 silly addNameRange     '15.0.2-alpha.4',
+54 silly addNameRange     '15.0.2',
+54 silly addNameRange     '15.0.3-alpha.1',
+54 silly addNameRange     '15.0.3-alpha.2',
+54 silly addNameRange     '15.1.0-alpha.1',
+54 silly addNameRange     '15.1.0',
+54 silly addNameRange     '15.2.0-rc.1',
+54 silly addNameRange     '15.2.0-rc.2',
+54 silly addNameRange     '15.2.0',
+54 silly addNameRange     '15.2.1',
+54 silly addNameRange     '15.3.0-rc.1',
+54 silly addNameRange     '15.3.0-rc.2',
+54 silly addNameRange     '15.3.0-rc.3',
+54 silly addNameRange     '15.3.0',
+54 silly addNameRange     '15.3.1-rc.1',
+54 silly addNameRange     '15.3.1-rc.2',
+54 silly addNameRange     '15.3.1' ] ]
+55 verbose addNamed [ 'react-addons-pure-render-mixin', '15.3.1' ]
+56 verbose addNamed [ '15.3.1', '15.3.1' ]
+57 silly lockFile d0bb72f4--addons-pure-render-mixin-15-3-1 react-addons-pure-render-mixin@15.3.1
+58 verbose lock react-addons-pure-render-mixin@15.3.1 /Users/jemacar/.npm/d0bb72f4--addons-pure-render-mixin-15-3-1.lock
+59 silly lockFile 396d8759-ons-pure-render-mixin-15-3-1-tgz https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.3.1.tgz
+60 verbose lock https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.3.1.tgz /Users/jemacar/.npm/396d8759-ons-pure-render-mixin-15-3-1-tgz.lock
+61 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.3.1.tgz',
+61 verbose addRemoteTarball   '75e8790ff7b9434ae481a377ec07503420d5aba6' ]
+62 info retry fetch attempt 1 at 20:07:25
+63 verbose fetch to= /var/folders/sr/xr7lb_d11v39rhbhj3q7q6q40000gn/T/npm-2948-lRyR20Zj/registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.3.1.tgz
+64 http GET https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.3.1.tgz
+65 http 200 https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.3.1.tgz
+66 silly lockFile 396d8759-ons-pure-render-mixin-15-3-1-tgz https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.3.1.tgz
+67 silly lockFile 396d8759-ons-pure-render-mixin-15-3-1-tgz https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.3.1.tgz
+68 silly lockFile d0bb72f4--addons-pure-render-mixin-15-3-1 react-addons-pure-render-mixin@15.3.1
+69 silly lockFile d0bb72f4--addons-pure-render-mixin-15-3-1 react-addons-pure-render-mixin@15.3.1
+70 silly lockFile 8a0a757f-react-addons-pure-render-mixin react-addons-pure-render-mixin@
+71 silly lockFile 8a0a757f-react-addons-pure-render-mixin react-addons-pure-render-mixin@
+72 error 404 Not Found
+72 error 404
+72 error 404 '—save' is not in the npm registry.
+72 error 404 You should bug the author to publish it
+72 error 404 It was specified as a dependency of 'udemy-meteor-react-employees'
+72 error 404
+72 error 404 Note that you can also install from a
+72 error 404 tarball, folder, or http url, or git url.
+73 error System Darwin 15.0.0
+74 error command "node" "/usr/local/bin/npm" "install" "—save" "react-addons-pure-render-mixin"
+75 error cwd /Users/jemacar/workspace/udemy-meteor-react-employees
+76 error node -v v0.10.36
+77 error npm -v 1.4.28
+78 error code E404
+79 verbose exit [ 1, true ]
